@@ -1,6 +1,9 @@
-torch==2.0.1
-torchvision==0.15.2
-timm==0.9.12
-gradio==4.16.0
-pillow==10.1.0
-numpy==1.24.3
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=0.9.0
+gradio==4.36.0
+huggingface-hub==0.23.0
+pillow>=10.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+ultralytics>=8.0.0
