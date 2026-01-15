@@ -36,8 +36,8 @@ MODEL_NAMES = [
     "yolov11",           # YOLOv11 Classification
     "efficientnetv2",    # EfficientNetV2-S
     "convnextv2",        # ConvNeXt V2
-    "vit",               # Vision Transformer
-    "hybrid_cnn_vit"     # Hybrid CNN + ViT (CoAtNet-style)
+    "internimage",       # InternImage - SOTA with deformable conv + global modeling
+    "convformer"         # ConvFormer - Efficient CNN + Self-Attention
 ]
 
 # Class names (will be populated from dataset)

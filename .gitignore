@@ -9,7 +9,6 @@ data/
 *.zip
 
 # Model outputs (large files)
-outputs/models/*.pth
 outputs/models/*.pt
 outputs/models/*.h5
 
@@ -55,3 +54,4 @@ logs/
 # Temporary files
 tmp/
 temp/
+outputs/models/*.pth

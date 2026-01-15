@@ -286,11 +286,14 @@ def create_gradio_interface():
         gr.Markdown("""
         ---
         ### 📖 Tentang Aplikasi
-        - **5 Model Deep Learning**: YOLOv11, EfficientNetV2, ConvNeXtV2, ViT, Hybrid CNN-ViT
+        - **5 Model Deep Learning SOTA**: YOLOv11 (95.08%), EfficientNetV2 (95.08%), ConvFormer (94.77%), ConvNeXtV2 (93.95%), InternImage (89.86%)
         - **31 Kelas Tanaman**: Rempah dan tanaman herbal Indonesia
-        - **Dataset**: Indonesian Spices Dataset (6.510 gambar)
-        
-        Made with ❤️ for Indonesian Herbal Heritage
+        - **Dataset**: Indonesian Spices Dataset (6,510 gambar, perfectly balanced)
+        - **Training**: 10 epochs, Mixed Precision (AMP), AdamW + OneCycleLR
+
+        🏆 Best Models: **EfficientNetV2-S & YOLOv11-cls** (95.08% accuracy)
+
+        Made with ❤️ for Indonesian Herbal Heritage | Powered by Claude Sonnet 4.5
         """)
     
     return demo

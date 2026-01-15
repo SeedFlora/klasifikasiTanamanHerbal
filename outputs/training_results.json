@@ -1,0 +1,32 @@
+{
+  "yolov11": {
+    "best_val_acc": 95.08196721311475,
+    "training_time": 2001.3292083740234,
+    "params": 20217199,
+    "model_path": "d:\\skripsi tanaman herbal\\outputs\\models\\yolov11.pth"
+  },
+  "efficientnetv2": {
+    "best_val_acc": 95.08196721311475,
+    "training_time": 2114.5246901512146,
+    "params": 20217199,
+    "model_path": "d:\\skripsi tanaman herbal\\outputs\\models\\efficientnetv2.pth"
+  },
+  "convnextv2": {
+    "best_val_acc": 93.95491803278688,
+    "training_time": 1737.544314622879,
+    "params": 27890335,
+    "model_path": "d:\\skripsi tanaman herbal\\outputs\\models\\convnextv2.pth"
+  },
+  "internimage": {
+    "best_val_acc": 89.85655737704919,
+    "training_time": 1194.4715466499329,
+    "params": 28141375,
+    "model_path": "d:\\skripsi tanaman herbal\\outputs\\models\\internimage.pth"
+  },
+  "convformer": {
+    "best_val_acc": 94.77459016393442,
+    "training_time": 1701.1485562324524,
+    "params": 26406223,
+    "model_path": "d:\\skripsi tanaman herbal\\outputs\\models\\convformer.pth"
+  }
+}
